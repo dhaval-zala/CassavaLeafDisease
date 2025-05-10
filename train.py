@@ -9,8 +9,8 @@ from torch.utils.data import DataLoader, Dataset, random_split
 from ClassModels import ConvNextClassificationModel
 
 # Configuration parameters
-images_folder = '/home/dhavalsinh/Desktop/ObjClassification/dataset/CassavaLeafDisease-data/images'
-labels_csv = '/home/dhavalsinh/Desktop/ObjClassification/dataset/CassavaLeafDisease-data/label.csv'
+images_folder = 'dataset/CassavaLeafDisease-data/images'
+labels_csv = 'dataset/CassavaLeafDisease-data/label.csv'
 batch_size = 64
 learning_rate = 0.0001
 n_epochs = 20
